@@ -10,7 +10,7 @@ function MyProject() {
                     <h2 className="skills--section--heading">My Projects</h2>
                 </div>
                 <div>
-                    <a href="https://github.com/PRAVEENKUMARhicet" target="_blank"><button className="btn btn-github"><FaGithub /> Visit My Github</button></a>
+                    <a href="https://github.com/PRAVEENKUMARhicet" target="_blank" rel="noopener noreferrer"><button className="btn btn-github"><FaGithub /> Visit My Github</button></a>
                 </div>
             </div>
             <div className="portfolio--section--container">
