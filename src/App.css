@@ -999,8 +999,10 @@ input[type="checkbox"] {
 
 .nav__hamburger {
   display: none;
+  background: var(--black);
+  border: none;
   width: 1.875rem;
-  height: 1.313rem;
+  height: 1.443rem;
   flex-direction: column;
   justify-content: space-around;
   position: absolute;

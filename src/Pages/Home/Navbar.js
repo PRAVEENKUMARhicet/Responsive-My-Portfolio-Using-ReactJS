@@ -35,11 +35,11 @@ function Navbar() {
                     <img src={logo} alt="" className="logo"/><span style={{color:"white", marginLeft:"3px"}}>PRAVEEN</span><span className="hero--section--title--color">KUMAR</span>
                 </Link>
             </div>
-            <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav} href="">
+            <button className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
                 <span className="nav__hamburger__line"></span>
                 <span className="nav__hamburger__line"></span>
                 <span className="nav__hamburger__line"></span>
-            </a>
+            </button>
             <div className={`navbar--items ${navActive ? "active" : ""}`}>
                 <ul>
                     <li>
