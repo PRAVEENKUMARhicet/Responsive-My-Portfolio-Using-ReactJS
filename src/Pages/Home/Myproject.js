@@ -1,7 +1,7 @@
 import data from "../../data/index.json";
 import { FaGithub } from "react-icons/fa";
 
-export default function MyProject() {
+function MyProject() {
     return (
         <section className="portfolio--section" id="MyProject">
             <div className="portfolio--container-box">
@@ -49,3 +49,5 @@ export default function MyProject() {
         </section>
     )
 }
+
+export default MyProject;

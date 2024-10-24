@@ -3,7 +3,7 @@ import SkillCard from './SkillCard'
 import {SKILLS} from "../../data/data"
 import SkillsCardinfo from './SkillsCardinfo';
 
-export const MySkill = () => {
+function MySkill() {
     const [selectedSkill,setSelectedSkill] = useState(SKILLS[0]);
     const handleSelectSkill=(data)=>{
       setSelectedSkill(data);
@@ -38,3 +38,4 @@ export const MySkill = () => {
     </section>
   )
 }
+export default MySkill;

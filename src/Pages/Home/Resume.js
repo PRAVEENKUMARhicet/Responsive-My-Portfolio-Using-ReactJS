@@ -1,7 +1,7 @@
 import ResumeImg from '../../assests/resume.jpg';
 import resume from '../../assests/resume-Google.pdf';
 
-export default function Resume(){
+function Resume(){
     return(
         <section className="Resume--container" id="Resume">
             <div className="resume--section--img">
@@ -19,3 +19,4 @@ export default function Resume(){
         </section>
     )
 }
+export default Resume;
