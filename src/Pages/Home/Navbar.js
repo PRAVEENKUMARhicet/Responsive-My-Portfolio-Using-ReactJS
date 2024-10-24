@@ -35,7 +35,7 @@ function Navbar() {
                     <img src={logo} alt="" className="logo"/><span style={{color:"white", marginLeft:"3px"}}>PRAVEEN</span><span className="hero--section--title--color">KUMAR</span>
                 </Link>
             </div>
-            <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
+            <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav} href="">
                 <span className="nav__hamburger__line"></span>
                 <span className="nav__hamburger__line"></span>
                 <span className="nav__hamburger__line"></span>
