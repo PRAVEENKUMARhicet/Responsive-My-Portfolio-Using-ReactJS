@@ -1,7 +1,8 @@
 import './App.css';
 import React from 'react';
+import Components from './Pages/Home/HomeScreen/index';
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
-import Components from './Pages/Home/HomeScreen';
+
 import Navbar from './Pages/Home/Navbar';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Components/>}></Route>
-            <Route path="*" element={<div>404 Not Found</div>}></Route>
+            <Route path="*" element={<div id="error">404 Not Found</div>}></Route>
           </Routes>
         </div>
       </Router>

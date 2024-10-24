@@ -10,7 +10,12 @@ h1,h2,h3,h4,h5,h6,p {
   margin: 0;
   color: var(--white);
 }
-
+#error{
+  position: absolute;
+  background-color: #000000;
+  color: red;
+  z-index: 999;
+}
 /* :root {
   --primary: #5e3bee;
   --heading-color: #282938;
@@ -194,7 +199,7 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 99;
 }
 .navbar--items > ul {
   list-style: none;

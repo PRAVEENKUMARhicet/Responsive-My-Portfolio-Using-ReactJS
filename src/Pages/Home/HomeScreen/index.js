@@ -7,7 +7,7 @@ import MySkill from "../MySkill";
 // import MySkills from "../MySkills";
 import Resume from "../Resume";
 
-export default function Components() {
+function Components() {
     return (
         <>
             <HeroSection />
@@ -21,3 +21,4 @@ export default function Components() {
         </>
     );
 }
+export default Components;
