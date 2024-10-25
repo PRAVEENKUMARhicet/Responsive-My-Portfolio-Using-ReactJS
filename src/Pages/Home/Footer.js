@@ -8,15 +8,15 @@ import { MdPhoneIphone } from "react-icons/md";
 import logo from '../../assests/logo-bgshade.png';
 
 function Footer() {
-  const email='praveenkumar10022004@gmail.com';
-  const ph_no='+91 8903434660';
+  const email = 'praveenkumar10022004@gmail.com';
+  const ph_no = '+91 8903434660';
 
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
-      <div className="logo--section">
-                <img src={logo} alt="" className="logo"/><span style={{color:"white", marginLeft:"3px"}}>PRAVEEN</span><span className="hero--section--title--color">KUMAR</span>
-            </div>
+        <div className="logo--section">
+          <img src={logo} alt="" className="logo" /><span style={{ color: "white", marginLeft: "3px" }}>PRAVEEN</span><span className="hero--section--title--color">KUMAR</span>
+        </div>
         <div className="footer--items">
           <ul>
             <li>
@@ -95,7 +95,7 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaInstagram className="icons"/>
+                <FaInstagram className="icons" />
               </a>
             </li>
             <li>
@@ -105,7 +105,7 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaXTwitter className="icons"/>
+                <FaXTwitter className="icons" />
               </a>
             </li>
             <li>
@@ -115,19 +115,19 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaLinkedin className="icons"/>
+                <FaLinkedin className="icons" />
               </a>
             </li>
           </ul>
         </div>
       </div>
       <div className="contact--details">
-          <div className="mail text-lg">
-            <MdAttachEmail className="icons"/> {email}
-          </div>
-          <div className="ph_no text-lg">
-            <MdPhoneIphone className="icons"/> {ph_no}
-          </div>
+        <div className="mail text-lg">
+          <MdAttachEmail className="icons" /> <a href="mailto:praveenkumar10022004@gmail.com" className="contact-link" target="_blank">{email}</a>
+        </div>
+        <div className="ph_no text-lg">
+          <MdPhoneIphone className="icons" /> <a href="tel:+91 8903434660" className="contact-link" target="_blank">{ph_no}</a>
+        </div>
       </div>
       <hr className="divider" />
       <div className="footer--content--container">

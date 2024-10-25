@@ -19,7 +19,6 @@ function HeroSection() {
                     </p>
                 </div>
                 <Link activeClass="navBar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn hero--section--btn hero--btn">Get In Touch</Link>
-                {/* <button className="btn btn-primary" to="Contact">Get In Touch</button> */}
             </div>
             <div className="hero--section--img">
                 <img src={heroImg} alt="" style={{ width: "500px", height: "500px" }} />
