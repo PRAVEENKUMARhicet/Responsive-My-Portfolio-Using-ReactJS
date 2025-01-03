@@ -1,5 +1,5 @@
 import ResumeImg from '../../assests/resume.jpg';
-import resume from '../../assests/resume-Google.pdf';
+import resume from '../../assests/praveen-resume.pdf';
 
 function Resume() {
     return (
