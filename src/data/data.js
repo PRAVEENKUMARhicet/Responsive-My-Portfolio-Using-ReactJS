@@ -18,8 +18,10 @@ export const SKILLS=[
         title:"Backend",
         icon: backend_img,
         skills:[
-            {skill:"Java", percentage:"80%"},
-            {skill:"C", percentage:"85%"}
+            {skill:"Java", percentage:"90%"},
+            {skill:"C", percentage:"90%"},
+            {skill:"DSA(Java)", percentage:"75%"},
+            {skill:"DSA(C Programming)", percentage:"80%"}
         ],
     },
     {
