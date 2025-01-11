@@ -1,8 +1,12 @@
-import React, { useRef } from 'react';
+import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { TiTick } from "react-icons/ti";
+import { TiCancel } from "react-icons/ti";
 
 function ContactMe() {
     const form = useRef();
+    const [isSend,setSend]=useState(false);
+    const [isFailed,setFailed]=useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -14,15 +18,28 @@ function ContactMe() {
             .then(
                 () => {
                     console.log('SUCCESS!');
-                    e.target.reset();
+                    setSend(!isSend);
+                    setTimeout(()=>setSend(false),4000);
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    setFailed(!isFailed);
+                    setTimeout(()=>setFailed(false),4000);
                 },
             );
+            e.target.reset();
     };
     return (
         <section id="Contact" className="contact--section">
+            <div>
+          <div className='send' style={{display:isSend?"flex":"none" ,alignItems:"center"}}>
+            <TiTick style={{color:"#5CB338",width:"50px",height:"50px"}}/>
+            <p style={{display:"block",margin:"auto 10px"}}>Message Sent Successfully!</p>
+          </div>
+          <div className='failed' style={{display:isFailed?"flex":"none" ,alignItems:"center"}}>
+            <TiCancel style={{color:"red",width:"50px",height:"50px",marginLeft:"10px"}}/>
+            <p style={{display:"block",margin:"auto 10px"}}>Message Not Sent Try Again</p>
+          </div>
+        </div>
             <div>
                 <p className="sub--title">Get In Touch</p>
                 <h2 className="skills--section--heading">Contact Me</h2>

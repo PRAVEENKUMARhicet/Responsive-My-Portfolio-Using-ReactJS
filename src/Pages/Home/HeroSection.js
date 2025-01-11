@@ -1,5 +1,5 @@
-import { Link } from "react-scroll";
-import heroImg from '../../assests/hero.png';
+import heroImg from '../../assests/portfolio_img.png';
+import resume from '../../assests/praveen-resume.pdf';
 
 function HeroSection() {
     return (
@@ -18,10 +18,10 @@ function HeroSection() {
                         I'm a passionate Full-Stack Developer with a strong foundation in building dynamic web applications. Currently seeking a full-time role where I can contribute to innovative solutions and continue growing as a developer.
                     </p>
                 </div>
-                <Link activeClass="navBar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn hero--section--btn hero--btn">Get In Touch</Link>
+                <a activeClass="navBar--active-content" href={resume} download='resume' className="btn hero--section--btn hero--btn">My Resume</a>
             </div>
             <div className="hero--section--img">
-                <img src={heroImg} alt="" style={{ width: "500px", height: "500px" }} />
+                <img src={heroImg} alt="My_image" />
             </div>
         </section>
     )

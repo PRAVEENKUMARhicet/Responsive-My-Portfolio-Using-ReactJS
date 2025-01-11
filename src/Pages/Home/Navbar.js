@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import logo from '../../assests/logo.png';
+import logo from '../../assests/portfolio_logo.png';
+import resume from '../../assests/praveen-resume.pdf';
 function Navbar() {
     const [navActive, setNavActive] = useState(false);
     const toggleNav = () => {
@@ -55,11 +56,11 @@ function Navbar() {
                         <Link onClick={closeMenu} activeClass="navBar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="MyProject" className="navbar--content">Projects</Link>
                     </li>
                     <li>
-                        <Link onClick={closeMenu} activeClass="navBar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="Resume" className="navbar--content">Resume</Link>
+                        <Link onClick={closeMenu} activeClass="navBar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="navbar--content">Contact Me</Link>
                     </li>
                 </ul>
             </div>
-            <Link onClick={closeMenu} spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn btn-outline-primary">Contact Me</Link>
+            <a activeClass="navBar--active-content" href={resume} download='resume' className="btn btn-outline-primary">My Resume</a>
         </nav>
     )
 }

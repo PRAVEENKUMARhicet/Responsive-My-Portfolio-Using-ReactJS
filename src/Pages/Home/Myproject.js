@@ -17,31 +17,21 @@ function MyProject() {
                 {data?.portfolio?.map((item, index) => (
                     <div key={index} className="portfolio--section--card">
                         <div className="portfolio--section--img">
-                            <img src={item.src} alt="" />
+                            <img src={`${item.src}`} alt="" />
                         </div>
                         <div className="portfolio--section--card--content">
                             <div>
                                 <h3 className="portfolio--section--title">{item.title}</h3>
                                 <p className="text-md portfolio--section--description">{item.description}</p>
                             </div>
-                            <p className="text-sm portfolio--link">
-                                {item.link}
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
-                                    viewBox="0 0 20 19"
-                                    fill="none"
-                                >
-                                    <path
-                                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                                        stroke="currentColor"
-                                        stroke-width="2.66667"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                </svg>
-                            </p>
+                            <div className="project_links">
+                                <a className="btn btn-github" target="_blank" href="https://praveenkumarhicet.github.io/Responsive-My-Portfolio-Using-ReactJS/">
+                                    View
+                                </a>
+                                <a className="btn btn-github" target="_blank" href="https://github.com/PRAVEENKUMARhicet/Responsive-My-Portfolio-Using-ReactJS">
+                                    Source Code
+                                </a>
+                            </div>
                         </div>
                     </div>
                 ))}

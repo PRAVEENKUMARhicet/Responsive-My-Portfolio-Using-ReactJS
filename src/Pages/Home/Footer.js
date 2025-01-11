@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { MdAttachEmail } from "react-icons/md";
 import { MdPhoneIphone } from "react-icons/md";
-import logo from '../../assests/logo-bgshade.png';
+import logo from '../../assests/portfolio_logo.png';
 
 function Footer() {
   const email = 'praveenkumar10022004@gmail.com';
