@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Responsive-My-Portfolio-Using-ReactJS/static/css/main.cc764631.css",
-    "main.js": "/Responsive-My-Portfolio-Using-ReactJS/static/js/main.cd4907c2.js",
+    "main.js": "/Responsive-My-Portfolio-Using-ReactJS/static/js/main.ee85a4c9.js",
     "static/media/portfolio_img.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/portfolio_img.fbd012d0d6e7e625eb37.png",
     "static/media/github_image.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/github_image.619ff0b319a55d0c05b1.png",
     "static/media/praveen-resume.pdf": "/Responsive-My-Portfolio-Using-ReactJS/static/media/praveen-resume.475bee41b51628f11778.pdf",
@@ -12,10 +12,10 @@
     "static/media/frontend.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/frontend.201d99ed75a8e1786e24.png",
     "index.html": "/Responsive-My-Portfolio-Using-ReactJS/index.html",
     "main.cc764631.css.map": "/Responsive-My-Portfolio-Using-ReactJS/static/css/main.cc764631.css.map",
-    "main.cd4907c2.js.map": "/Responsive-My-Portfolio-Using-ReactJS/static/js/main.cd4907c2.js.map"
+    "main.ee85a4c9.js.map": "/Responsive-My-Portfolio-Using-ReactJS/static/js/main.ee85a4c9.js.map"
   },
   "entrypoints": [
     "static/css/main.cc764631.css",
-    "static/js/main.cd4907c2.js"
+    "static/js/main.ee85a4c9.js"
   ]
 }
