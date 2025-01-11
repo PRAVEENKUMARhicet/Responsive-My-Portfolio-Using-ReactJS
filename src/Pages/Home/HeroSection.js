@@ -18,7 +18,7 @@ function HeroSection() {
                         I'm a passionate Full-Stack Developer with a strong foundation in building dynamic web applications. Currently seeking a full-time role where I can contribute to innovative solutions and continue growing as a developer.
                     </p>
                 </div>
-                <a activeClass="navBar--active-content" href={resume} download='resume' className="btn hero--section--btn hero--btn">My Resume</a>
+                <a activeClass="navBar--active-content" href={resume} download='resume' className="btn hero--section--btn hero--btn" rel="noreferrer">My Resume</a>
             </div>
             <div className="hero--section--img">
                 <img src={heroImg} alt="My_image" />

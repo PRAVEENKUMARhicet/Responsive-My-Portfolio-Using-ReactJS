@@ -25,10 +25,10 @@ function MyProject() {
                                 <p className="text-md portfolio--section--description">{item.description}</p>
                             </div>
                             <div className="project_links">
-                                <a className="btn btn-github" target="_blank" href="https://praveenkumarhicet.github.io/Responsive-My-Portfolio-Using-ReactJS/">
+                                <a className="btn btn-github" target="_blank" href="https://praveenkumarhicet.github.io/Responsive-My-Portfolio-Using-ReactJS/" rel="noreferrer">
                                     View
                                 </a>
-                                <a className="btn btn-github" target="_blank" href="https://github.com/PRAVEENKUMARhicet/Responsive-My-Portfolio-Using-ReactJS">
+                                <a className="btn btn-github" target="_blank" href="https://github.com/PRAVEENKUMARhicet/Responsive-My-Portfolio-Using-ReactJS" rel="noreferrer">
                                     Source Code
                                 </a>
                             </div>
