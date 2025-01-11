@@ -7,7 +7,7 @@ function HeroSection() {
             <div className="hero--section--content--box">
                 <div className="hero--section--content">
                     <p className="section--title">
-                        Hey, I'm <div className="hero--section--title--color" style={{ marginLeft: "10px" }}>PRAVEEN</div>KUMAR
+                        Hey, I'm <span className="hero--section--title--color" style={{ marginLeft: "10px" }}>PRAVEEN</span>KUMAR
                     </p>
                     <h1 className="hero--section--title">
                         <span className="hero--section--title--color">Full Stack</span>{" "}
@@ -18,7 +18,7 @@ function HeroSection() {
                         I'm a passionate Full-Stack Developer with a strong foundation in building dynamic web applications. Currently seeking a full-time role where I can contribute to innovative solutions and continue growing as a developer.
                     </p>
                 </div>
-                <a activeClass="navBar--active-content" href={resume} download='resume' className="btn hero--section--btn hero--btn" rel="noreferrer">My Resume</a>
+                <a href={resume} download='resume' className="btn hero--section--btn hero--btn" rel="noreferrer">My Resume</a>
             </div>
             <div className="hero--section--img">
                 <img src={heroImg} alt="My_image" />

@@ -60,7 +60,7 @@ function Navbar() {
                     </li>
                 </ul>
             </div>
-            <a activeClass="navBar--active-content" href={resume} download='resume' rel="noreferrer" className="btn btn-outline-primary">My Resume</a>
+            <a href={resume} download='resume' rel="noreferrer" className="btn btn-outline-primary">My Resume</a>
         </nav>
     )
 }
