@@ -612,15 +612,15 @@ h2 {
 }
 
 .portfolio--section--container {
-  width: 100%; 
-  overflow-x: auto; 
+  width: 100%;
+  overflow-x: auto;
   overflow-y: hidden;
   display: flex;
-    overflow-x: auto;
-    gap: 20px; 
-    padding: 32px;
-    scroll-snap-type: x mandatory;
-    transition: all 0.3s ease-in-out;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 32px;
+  scroll-snap-type: x mandatory;
+  transition: all 0.3s ease-in-out;
 }
 
 .portfolio--section--container:hover {
@@ -629,9 +629,9 @@ h2 {
 
 .portfolio--section--img {
   border-radius: 8px;
-  overflow: hidden; 
+  overflow: hidden;
   width: 100%;
-  height: 180px; 
+  height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -644,15 +644,15 @@ h2 {
 }
 
 .portfolio--section--card {
-  flex: 0 0 auto; 
-    width: 280px; 
-    scroll-snap-align: center; 
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-    background: var(--bg-shade);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  flex: 0 0 auto;
+  width: 280px;
+  scroll-snap-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background: var(--bg-shade);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .portfolio--section--card--content {
@@ -684,17 +684,17 @@ h2 {
 }
 
 .portfolio--section--container::-webkit-scrollbar {
-  height: 12px; 
+  height: 12px;
   background: transparent;
 }
 
 .portfolio--section--container::-webkit-scrollbar-thumb {
-  background-color: var(--github); 
+  background-color: var(--github);
   border-radius: 4px;
 }
 
 .portfolio--section--container::-webkit-scrollbar-track {
-  background: var(--bg-shade); 
+  background: var(--bg-shade);
   border-radius: 4px;
 }
 
@@ -719,15 +719,15 @@ h2 {
   border-bottom: 4px solid var(--primary);
 }
 
-.project_links{
-  display:flex;
+.project_links {
+  display: flex;
   gap: 16px;
   flex-wrap: wrap;
 }
 
-.project_links a{
+.project_links a {
   padding: 8px 16px;
-  font-size: 14px; 
+  font-size: 14px;
   background-color: var(--primary);
   color: var(--white);
   text-decoration: none;
@@ -790,7 +790,7 @@ h2 {
   line-height: 24px;
 }
 
-.send{
+.send {
   padding: 10px;
   width: max-content;
   border: 2px solid var(--github);
@@ -800,7 +800,8 @@ h2 {
   background-color: var(--black);
   z-index: 1000;
 }
-.failed{
+
+.failed {
   padding: 10px;
   width: max-content;
   border: 2px solid red;
@@ -808,7 +809,7 @@ h2 {
   top: 10%;
   right: 0;
   background-color: var(--black);
-  z-index: 10000;
+  z-index: 10000;
 }
 
 select {
@@ -955,10 +956,10 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 1600px) {
-  .hero--section--img{
+  .hero--section--img {
     margin-left: 50px;
   }
-  
+
   .skills--section--heading {
     font-size: 54px;
     line-height: 70px;
@@ -1061,7 +1062,7 @@ input[type="checkbox"] {
     line-height: 40px;
   }
 
-  .skills--section--heading{
+  .skills--section--heading {
     margin-bottom: 6px;
   }
 
@@ -1071,23 +1072,23 @@ input[type="checkbox"] {
   }
 
   .portfolio--section--container {
-    display: flex; 
-    flex-direction: row; 
-    overflow-x: auto; 
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
     overflow-y: hidden;
-    gap: 20px; 
+    gap: 20px;
     scroll-snap-type: x mandatory;
     padding: 10px;
-    
+
   }
 
   .portfolio--section--container::-webkit-scrollbar {
-    height: 8px; 
+    height: 8px;
     background: var(--bg-shade);
   }
 
   .portfolio--section--container::-webkit-scrollbar-thumb {
-    background-color: var(--github); 
+    background-color: var(--github);
     border-radius: 4px;
   }
 
@@ -1097,7 +1098,7 @@ input[type="checkbox"] {
 
   .portfolio--section--card {
     flex: 0 0 auto;
-    width: 240px; 
+    width: 240px;
     scroll-snap-align: center;
   }
 
@@ -1248,12 +1249,13 @@ input[type="checkbox"] {
 
   .hero--section--img {
     margin-left: 0;
-  img{
-    margin-top: 50px;
-    width: 250px;
-    height: 250px;
+
+    img {
+      margin-top: 50px;
+      width: 250px;
+      height: 250px;
+    }
   }
-}
 
   .skills-container,
   .skills-content {
@@ -1277,7 +1279,7 @@ input[type="checkbox"] {
   }
 
   .portfolio--section--card {
-    width: 240px; 
+    width: 240px;
   }
 
   .skills--section--heading {

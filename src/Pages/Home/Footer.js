@@ -123,10 +123,10 @@ function Footer() {
       </div>
       <div className="contact--details">
         <div className="mail text-lg">
-          <MdAttachEmail className="icons" /> <a href="mailto:praveenkumar10022004@gmail.com" className="contact-link" target="_blank">{email}</a>
+          <MdAttachEmail className="icons" /> <a href="mailto:praveenkumar10022004@gmail.com" className="contact-link" target="_blank" rel="noreferrer">{email}</a>
         </div>
         <div className="ph_no text-lg">
-          <MdPhoneIphone className="icons" /> <a href="tel:+91 8903434660" className="contact-link" target="_blank">{ph_no}</a>
+          <MdPhoneIphone className="icons" /> <a href="tel:+91 8903434660" className="contact-link" target="_blank" rel="noreferrer">{ph_no}</a>
         </div>
       </div>
       <hr className="divider" />

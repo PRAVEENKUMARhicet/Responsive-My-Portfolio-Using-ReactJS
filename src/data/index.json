@@ -1,11 +1,11 @@
 {
-    "portfolio":[
+    "portfolio": [
         {
-            "id":"1",
-            "src":"portfolio_project.png",
-            "title":"Personal Portfolio",
-            "description":"Responsive personal portfolio using React Js",
-            "link":"view in Github"
+            "id": "1",
+            "src": "portfolio_project.png",
+            "title": "Personal Portfolio",
+            "description": "Responsive personal portfolio using React Js",
+            "link": "view in Github"
         }
     ]
 }
