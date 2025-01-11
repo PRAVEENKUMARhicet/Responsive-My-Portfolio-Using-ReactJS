@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/Responsive-My-Portfolio-Using-ReactJS/static/css/main.bd546132.css",
-    "main.js": "/Responsive-My-Portfolio-Using-ReactJS/static/js/main.f997732b.js",
+    "main.css": "/Responsive-My-Portfolio-Using-ReactJS/static/css/main.cc764631.css",
+    "main.js": "/Responsive-My-Portfolio-Using-ReactJS/static/js/main.b7c8f8d7.js",
+    "static/media/portfolio_img.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/portfolio_img.fbd012d0d6e7e625eb37.png",
     "static/media/github_image.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/github_image.619ff0b319a55d0c05b1.png",
-    "static/media/hero.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/hero.f14f30c6d01a97df04f6.png",
-    "static/media/resume.jpg": "/Responsive-My-Portfolio-Using-ReactJS/static/media/resume.40d9ec3d0701d254f50f.jpg",
     "static/media/praveen-resume.pdf": "/Responsive-My-Portfolio-Using-ReactJS/static/media/praveen-resume.475bee41b51628f11778.pdf",
-    "static/media/logo.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/logo.4f2f3ee2123d9b7d9bc5.png",
-    "static/media/logo-bgshade.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/logo-bgshade.dcf8c23ae7ce9e4813e0.png",
+    "static/media/portfolio_logo.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/portfolio_logo.ef4c46aabfdeafc3d21c.png",
     "static/media/backend.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/backend.b963fc0531cbbfd8197f.png",
     "static/media/database.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/database.39197b70700c34094ddb.png",
     "static/media/tools.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/tools.b8a99a33d7dbabeaf160.png",
     "static/media/frontend.png": "/Responsive-My-Portfolio-Using-ReactJS/static/media/frontend.201d99ed75a8e1786e24.png",
     "index.html": "/Responsive-My-Portfolio-Using-ReactJS/index.html",
-    "main.bd546132.css.map": "/Responsive-My-Portfolio-Using-ReactJS/static/css/main.bd546132.css.map",
-    "main.f997732b.js.map": "/Responsive-My-Portfolio-Using-ReactJS/static/js/main.f997732b.js.map"
+    "main.cc764631.css.map": "/Responsive-My-Portfolio-Using-ReactJS/static/css/main.cc764631.css.map",
+    "main.b7c8f8d7.js.map": "/Responsive-My-Portfolio-Using-ReactJS/static/js/main.b7c8f8d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd546132.css",
-    "static/js/main.f997732b.js"
+    "static/css/main.cc764631.css",
+    "static/js/main.b7c8f8d7.js"
   ]
 }
