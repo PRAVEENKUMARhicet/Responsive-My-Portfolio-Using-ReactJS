@@ -33,7 +33,7 @@ function Navbar() {
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div className="logo--section">
                 <Link to="heroSection" spy={true} smooth={true} offset={-70} duration={500} className="link--home">
-                    <img src={logo} alt="" className="logo" /><span style={{ color: "white", marginLeft: "3px" }}>PRAVEEN</span><span className="hero--section--title--color">KUMAR</span>
+                    <img src={logo} alt="logo" className="logo" /><span style={{ color: "white", marginLeft: "3px" }}>PRAVEEN</span><span className="hero--section--title--color">KUMAR</span>
                 </Link>
             </div>
             <button className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
