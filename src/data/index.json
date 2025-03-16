@@ -5,7 +5,40 @@
             "src": "portfolio_project.png",
             "title": "Personal Portfolio",
             "description": "Responsive personal portfolio using React Js",
-            "link": "view in Github"
+            "link": "https://praveenkumar.onrender.com",
+            "github-link" : "https://github.com/PRAVEENKUMARhicet/Responsive-My-Portfolio-Using-ReactJS"
+        },
+        {
+            "id": "2",
+            "src": "formvalidation.png",
+            "title": "Form Validation",
+            "description": "Form Validation using React Js",
+            "link": "https://praveenkumarhicet.github.io/FormValidation-using-ReactJs/",
+            "github-link" : "https://github.com/PRAVEENKUMARhicet/FormValidation-using-ReactJs"
+        },
+        {
+            "id": "3",
+            "src": "tictactoe.png",
+            "title": "Tic-Tac-Toe Game",
+            "description": "Tic-Tac-Toe Game using Javascript",
+            "link": "https://praveenkumarhicet.github.io/tic-tac-toe-using-html-css-javascript/",
+            "github-link" : "https://github.com/PRAVEENKUMARhicet/tic-tac-toe-using-html-css-javascript"
+        },
+        {
+            "id": "4",
+            "src": "passwordGenerator.png",
+            "title": "Password Generator",
+            "description": "Password Generator using Javascript",
+            "link": "https://praveenkumarhicet.github.io/password-generator-using-html-css-javascript/",
+            "github-link" : "https://github.com/PRAVEENKUMARhicet/password-generator-using-html-css-javascript"
+        },
+        {
+            "id": "5",
+            "src": "LoanCalculator.png",
+            "title": "Loan Calculator",
+            "description": "Loan Calculator using Javascript",
+            "link": "https://praveenkumarhicet.github.io/LoanCalculator-using-html-css-javascript/",
+            "github-link" : "https://github.com/PRAVEENKUMARhicet/LoanCalculator-using-html-css-javascript"
         }
     ]
 }
