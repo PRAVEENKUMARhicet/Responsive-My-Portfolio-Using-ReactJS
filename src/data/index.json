@@ -2,6 +2,22 @@
     "portfolio": [
         {
             "id": "1",
+            "src": "expense-tracker.png",
+            "title": "Expense-tracker",
+            "description": "Expense-tracker using Javascript",
+            "link": "https://praveenkumarhicet.github.io/Expense-tracker/",
+            "github-link" : "https://github.com/PRAVEENKUMARhicet/Expense-tracker"
+        },
+        {
+            "id": "2",
+            "src": "marsheet-validation.png",
+            "title": "Marksheet validation",
+            "description": "Marksheet validation using Javascript",
+            "link": "https://praveenkumarhicet.github.io/marksheet-validation-using-HTML-CSS-Javascript/",
+            "github-link" : "https://github.com/PRAVEENKUMARhicet/marksheet-validation-using-HTML-CSS-Javascript"
+        },
+        {
+            "id": "3",
             "src": "portfolio_project.png",
             "title": "Personal Portfolio",
             "description": "Responsive personal portfolio using React Js",
@@ -9,7 +25,7 @@
             "github-link" : "https://github.com/PRAVEENKUMARhicet/Responsive-My-Portfolio-Using-ReactJS"
         },
         {
-            "id": "2",
+            "id": "4",
             "src": "formvalidation.png",
             "title": "Form Validation",
             "description": "Form Validation using React Js",
@@ -17,7 +33,7 @@
             "github-link" : "https://github.com/PRAVEENKUMARhicet/FormValidation-using-ReactJs"
         },
         {
-            "id": "3",
+            "id": "5",
             "src": "tictactoe.png",
             "title": "Tic-Tac-Toe Game",
             "description": "Tic-Tac-Toe Game using Javascript",
@@ -25,7 +41,7 @@
             "github-link" : "https://github.com/PRAVEENKUMARhicet/tic-tac-toe-using-html-css-javascript"
         },
         {
-            "id": "4",
+            "id": "6",
             "src": "passwordGenerator.png",
             "title": "Password Generator",
             "description": "Password Generator using Javascript",
@@ -33,7 +49,7 @@
             "github-link" : "https://github.com/PRAVEENKUMARhicet/password-generator-using-html-css-javascript"
         },
         {
-            "id": "5",
+            "id": "7",
             "src": "LoanCalculator.png",
             "title": "Loan Calculator",
             "description": "Loan Calculator using Javascript",
